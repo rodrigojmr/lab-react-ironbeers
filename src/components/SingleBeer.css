@@ -1,0 +1,47 @@
+.single-beer {
+  padding: 3rem 1rem;
+}
+
+.single-beer__img-wrapper {
+  height: 60vw;
+  margin-bottom: 30px;
+}
+
+.single-beer__img {
+  height: 100%;
+  width: auto;
+}
+
+.single-beer__info > div:nth-child(1),
+.single-beer__info > div:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.single-beer__name {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.single-beer__attenuation {
+  font-size: 1.4rem;
+  color: lightgray;
+}
+.single-beer__tagline {
+  text-align: left;
+  font-size: 0.8rem;
+  color: lightgray;
+  font-weight: 600;
+}
+
+.single-beer__description {
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.single-beer__contributed-by {
+  text-align: left;
+}

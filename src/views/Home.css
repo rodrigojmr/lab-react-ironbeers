@@ -1,0 +1,35 @@
+.home img {
+  width: 100%;
+  height: auto;
+}
+
+.img-wrapper {
+  height: 20vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrapper img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.home h1 {
+  font-weight: 200;
+}
+
+.home .description-wrapper {
+  text-align: left;
+  padding: 0 20px;
+}
+
+.home .description {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.home section:not(:last-child) {
+  margin-bottom: 20px;
+}
